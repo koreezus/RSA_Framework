@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rahul App Test">
+    <test verbose="2" preserve-order="true" name="Shetty Academy Tests">
+        <classes>
+            <class name="kha.TestCases.LoginErrorValidation_Test">
+                <methods>
+                    <include name="loginError"/>
+                    <include name="loginErrorValidation"/>
+                </methods>
+            </class>
+            <class name="kha.TestCases.SubmitOrder_Test">
+                <methods>
+                    <include name="submitOrder"/>
+                    <include name="OrderHistoryTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
