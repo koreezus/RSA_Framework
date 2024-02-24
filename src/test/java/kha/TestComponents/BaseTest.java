@@ -43,7 +43,7 @@ public class BaseTest {
         }
         return driver;
     }
-    public List getJsonDataToMap(String filePath) throws IOException {
+    public List<HashMap<String,String>> getJsonDataToMap(String filePath) throws IOException {
         //read json to string
         String jsonContent = FileUtils.readFileToString(new File(filePath), StandardCharsets.UTF_8);
         //string to hashmap
